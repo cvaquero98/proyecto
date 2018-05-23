@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml-stylesheet type="text/xsl" href="rancheras.xsl"?>
+<galeria>
+
+<imagen numero="Mercedes">
+  <dibujo ruta="../images/ranchera1.jpg"/>
+  <nombre>Modelo: mercedes Benz Cla 220B</nombre>
+  <motor>Potencia: 160cv</motor>
+  <precio>Precio: 52.200€</precio>
+</imagen>
+
+<imagen numero="BMW">
+  <dibujo ruta="../images/ranchera2.jpg"/>
+  <nombre>Modelo: BMW serie5 528 tsi</nombre>
+  <motor>Potencia 180cv</motor>
+  <precio>Precio: 90.000€</precio>
+</imagen>
+
+
+<imagen numero="Ferrari">
+  <dibujo ruta="../images/ranchera3.jpg"/>
+  <nombre>Modelo: Ferrari verona</nombre>
+  <motor>Potencia: 320cv</motor>
+  <precio>Precio: 220.000€</precio>
+</imagen>
+
+<imagen numero="Mazda">
+  <dibujo ruta="../images/ranchera4.jpg"/>
+  <nombre>Modelo: Mazda 6 cdi</nombre>
+  <motor>Potencia: 140cv</motor>
+  <precio>Precio: 27.000€</precio>
+</imagen>
+
+</galeria>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml-stylesheet type="text/xsl" href="monovolumen.xsl"?>
+<galeria>
+
+<imagen numero=" BMW">
+  <dibujo ruta="../images/monovolumen1.jpg"/>
+  <nombre>Modelo: BMW serie 4 320</nombre>
+  <motor>Potencia: 160cv</motor>
+  <precio>Precio: 40.000€</precio>
+</imagen>
+
+<imagen numero=" Renault">
+  <dibujo ruta="../images/monovolumen2.jpg"/>
+  <nombre>Modelo: Renault Scenic</nombre>
+  <motor>Potencia: 130cv</motor>
+  <precio>Precio: 24.000€</precio>
+</imagen>
+
+
+<imagen numero=" Volkswagen ">
+  <dibujo ruta="../images/monovolumen3.jpg"/>
+  <nombre>Modelo: Volkswagen Crafter</nombre>
+  <motor>Potencia: 130cv</motor>
+  <precio>Precio: 32.000€</precio>
+</imagen>
+
+<imagen numero="Citroen">
+  <dibujo ruta="../images/monovolumen4.jpg"/>
+  <nombre>Modelo: Citroen</nombre>
+  <motor>Potencia: 110cv</motor>
+  <precio>Precio: 15.600€</precio>
+</imagen>
+
+</galeria>

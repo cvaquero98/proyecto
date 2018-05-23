@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml-stylesheet type="text/xsl" href="deportivos.xsl"?>
+ 
+<galeria>
+
+<imagen numero=" Ferrari">
+  <dibujo ruta="../images/deportivo1.jpg"/>
+  <nombre>Modelo: Ferrari italia</nombre>
+  <motor>Potencia: 420cv</motor>
+  <precio>Precio: 300.000€</precio>
+</imagen>
+
+<imagen numero=" Porche">
+  <dibujo ruta="../images/deportivo2.jpg"/>
+  <nombre>Modelo: Porche 911</nombre>
+  <motor>Potencia: 260cv</motor>
+  <precio>Precio: 120.000€</precio>
+</imagen>
+
+
+
+<imagen numero=" Mercedes">
+  <dibujo ruta="../images/deportivo3.jpg"/>
+  <nombre>Modelo: Mercedes amg gt</nombre>
+  <motor> Potencia: 380cv</motor>
+  <precio>precio: 180.000€</precio>
+</imagen>
+
+<imagen numero=" Lamborghini">
+  <dibujo ruta="../images/deportivo4.jpg"/>
+  <nombre>Modelo: Lamborghini aventador</nombre>
+  <motor>Potencia: 400cv</motor>
+  <precio>Precio: 250.000€</precio>
+</imagen>
+
+
+
+
+
+</galeria>

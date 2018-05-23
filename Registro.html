@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cristian Vaquero</title>
+  <link rel="stylesheet" type="text/css" href="css/proyecto.css">
+ <meta charset="utf-8">
+</head>
+<body>
+<header>
+  <!--Menu de Navegación-->
+  <nav>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Modelos 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="galeria/deportivos.xml">deportivos</a>
+          <a href="galeria/monovolumen.xml">Monovolumenes</a>
+          <a href="galeria/rancheras.xml">Rancheras</a>
+        </div>
+        </div>
+        <a href="info.html">Mantenimiento</a>
+          <div class="dropdown">
+            <button class="dropbtn">Financiación 
+              <i class="fa fa-caret-down"></i>
+            </button>
+        <div class="dropdown-content">
+          <a href="https://www.bbva.es/particulares/index.jsp">BBVA</a>
+          <a href="https://www.bancosantander.es/es/particulares">Santander</a>
+          <a href="https://ing.ingdirect.es/pfm/#login/">ING</a>
+        </div>
+          </div>
+          <a href="Contacto.html">Contacto</a>
+          <a class="login" href="registro.html">Registrarse</a>
+         
+    </div>  
+  </nav>
+</header>
+<!-- Formulario -->
+<section id="formulario">
+<div class="row2">
+  <div class="col-75">
+    <div class="contenedor">
+      <form action="/action_page.php">
+
+        <div class="row2">
+          <div class="col-50">
+            <h1 class="forma">Datos de facturación</h1>
+            <br>
+            <label for="fname"><i class="fa fa-user"></i> Nombre Completo</label>
+            <input type="text" id="fname" name="firstname" placeholder="Pepe de los Pinos">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="pontugmail@gmail.com">
+            <label for="city"><i class="fa fa-institution"></i> Ciudad</label>
+            <input type="text" id="city" name="city" placeholder="Madrid">
+			<label for="adr"><i class="fa fa-address-card-o"></i> Dirección</label>
+            <input type="text" id="adr" name="address" placeholder="avenida de los limones, 8">
+            
+
+            <div class="row2">
+              <div class="col-50">
+                <label for="state">Provincia</label>
+                <input type="text" id="state" name="state" placeholder="Galapagar">
+              </div>
+              <div class="col-50">
+                <label for="zip">Codigo Postal</label>
+                <input type="text" id="zip" name="zip" placeholder="28260">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h1 class="forma">Como Pagar</h1>
+            <br>
+            <label for="fname">Tarjeta de credito</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Titular</label>
+            <input type="text" id="cname" name="cardname" placeholder="Pepe de los Pinos">
+            <label for="ccnum">Número</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-1111-1111-1111">
+            <label for="expmonth">Mes de caducidad</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="Febrero">
+
+            <div class="row2">
+              <div class="col-50">
+                <label for="expyear">Año de caducidad</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2020">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="987">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Acepto los terminos y Licencias de uso para la compra del vehiculo
+        </label>
+        <input type="submit" value="Registrarme" class="btn">
+      </form>
+    </div>
+  </div>
+  </section>
+  
+   <footer>      
+    <ul>
+	<h2>Contacto</h2>
+      <li>Fundador: Cristian Vaquero </li>
+      <li>Teléfono: 636363636</li>
+      <li>Email: cvaqueroavison@email.com</li>
+      <li>Facebook: Compratucoche</li>
+	  <li>Dirección: Avenida América Nº52 </li>
+    </ul>
+	
+	<img class="logo" src="images/logo.jpg">
+	
+	<iframe style="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.003745121123!2d-3.6905331845323937!3d40.45305407936099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228e23705d39f%3A0xa8fff6d26e2b1988!2sEstadio+Santiago+Bernab%C3%A9u!5e0!3m2!1ses!2ses!4v1526554857580" 
+	width="220" height="220" frameborder="0" style="border:solid;" allowfullscreen></iframe>
+  </footer>
+    
+
+</body>
+</html>
